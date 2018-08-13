@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0EDC86A2120786A0058BF15 /* GoogleDriveManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EDC8602120786A0058BF15 /* GoogleDriveManager.framework */; };
+		B0EDC86F2120786A0058BF15 /* GoogleDriveManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC86E2120786A0058BF15 /* GoogleDriveManagerTests.swift */; };
+		B0EDC8712120786A0058BF15 /* GoogleDriveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B0EDC8632120786A0058BF15 /* GoogleDriveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0EDC87B212079100058BF15 /* GoogleDriveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC87A212079100058BF15 /* GoogleDriveManager.swift */; };
+		B0EDC87D2120792F0058BF15 /* GoogleDriveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC87C2120792F0058BF15 /* GoogleDriveService.swift */; };
+		B0EDC887212079810058BF15 /* GoogleDriveAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC884212079810058BF15 /* GoogleDriveAPIService.swift */; };
+		B0EDC888212079810058BF15 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC885212079810058BF15 /* Parameters.swift */; };
+		B0EDC889212079810058BF15 /* GDItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC886212079810058BF15 /* GDItem.swift */; };
+		B0EDC88B212079970058BF15 /* GoogleDriveAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC88A212079970058BF15 /* GoogleDriveAPI.swift */; };
+		B0FB8BA121207A02004D72D4 /* GoogleDriveManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = B0EDC87A212079100058BF15 /* GoogleDriveManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0FB8BA221207A05004D72D4 /* GoogleDriveService.swift in Headers */ = {isa = PBXBuildFile; fileRef = B0EDC87C2120792F0058BF15 /* GoogleDriveService.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0FB8BA321207A09004D72D4 /* GoogleDriveAPI.swift in Headers */ = {isa = PBXBuildFile; fileRef = B0EDC88A212079970058BF15 /* GoogleDriveAPI.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0FB8BA421207A0B004D72D4 /* GoogleDriveAPIService.swift in Headers */ = {isa = PBXBuildFile; fileRef = B0EDC884212079810058BF15 /* GoogleDriveAPIService.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0FB8BA521207A0D004D72D4 /* Parameters.swift in Headers */ = {isa = PBXBuildFile; fileRef = B0EDC885212079810058BF15 /* Parameters.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0FB8BA621207A10004D72D4 /* GDItem.swift in Headers */ = {isa = PBXBuildFile; fileRef = B0EDC886212079810058BF15 /* GDItem.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0FB8BF72121B68A004D72D4 /* GoogleDriveManager.framework in Resources */ = {isa = PBXBuildFile; fileRef = B0EDC8602120786A0058BF15 /* GoogleDriveManager.framework */; };
+		B0FB8BF82121B6B2004D72D4 /* GoogleDriveManager.h in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC8632120786A0058BF15 /* GoogleDriveManager.h */; };
+		B0FB8BF92121B6B4004D72D4 /* GoogleDriveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC87A212079100058BF15 /* GoogleDriveManager.swift */; };
+		B0FB8BFA2121B6B6004D72D4 /* GoogleDriveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC87C2120792F0058BF15 /* GoogleDriveService.swift */; };
+		B0FB8BFB2121B6B8004D72D4 /* GoogleDriveAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC88A212079970058BF15 /* GoogleDriveAPI.swift */; };
+		B0FB8BFC2121B6BA004D72D4 /* GoogleDriveAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC884212079810058BF15 /* GoogleDriveAPIService.swift */; };
+		B0FB8BFD2121B6BC004D72D4 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC885212079810058BF15 /* Parameters.swift */; };
+		B0FB8BFE2121B6BD004D72D4 /* GDItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EDC886212079810058BF15 /* GDItem.swift */; };
+		B0FB8C052121B998004D72D4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FB8C042121B998004D72D4 /* Alamofire.framework */; };
+		B0FB8C072121B9A1004D72D4 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FB8C062121B9A0004D72D4 /* GoogleSignIn.framework */; };
+		B0FB8C082121B9BF004D72D4 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FB8C062121B9A0004D72D4 /* GoogleSignIn.framework */; };
+		B0FB8C092121B9C1004D72D4 /* Alamofire.framework in Resources */ = {isa = PBXBuildFile; fileRef = B0FB8C042121B998004D72D4 /* Alamofire.framework */; };
+		B0FB8C0A2121B9C6004D72D4 /* GoogleSignIn.framework in Resources */ = {isa = PBXBuildFile; fileRef = B0FB8C062121B9A0004D72D4 /* GoogleSignIn.framework */; };
+		B0FB8C0B2121B9C9004D72D4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FB8C042121B998004D72D4 /* Alamofire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0EDC86B2120786A0058BF15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0EDC8572120786A0058BF15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0EDC85F2120786A0058BF15;
+			remoteInfo = GoogleDriveManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0EDC8602120786A0058BF15 /* GoogleDriveManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleDriveManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EDC8632120786A0058BF15 /* GoogleDriveManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleDriveManager.h; sourceTree = "<group>"; };
+		B0EDC8642120786A0058BF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EDC8692120786A0058BF15 /* GoogleDriveManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDriveManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EDC86E2120786A0058BF15 /* GoogleDriveManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDriveManagerTests.swift; sourceTree = "<group>"; };
+		B0EDC8702120786A0058BF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EDC87A212079100058BF15 /* GoogleDriveManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveManager.swift; sourceTree = "<group>"; };
+		B0EDC87C2120792F0058BF15 /* GoogleDriveService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveService.swift; sourceTree = "<group>"; };
+		B0EDC884212079810058BF15 /* GoogleDriveAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveAPIService.swift; sourceTree = "<group>"; };
+		B0EDC885212079810058BF15 /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		B0EDC886212079810058BF15 /* GDItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDItem.swift; sourceTree = "<group>"; };
+		B0EDC88A212079970058BF15 /* GoogleDriveAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveAPI.swift; sourceTree = "<group>"; };
+		B0FB8C042121B998004D72D4 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		B0FB8C062121B9A0004D72D4 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Carthage/Build/iOS/GoogleSignIn.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0EDC85C2120786A0058BF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FB8C052121B998004D72D4 /* Alamofire.framework in Frameworks */,
+				B0FB8C072121B9A1004D72D4 /* GoogleSignIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EDC8662120786A0058BF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EDC86A2120786A0058BF15 /* GoogleDriveManager.framework in Frameworks */,
+				B0FB8C082121B9BF004D72D4 /* GoogleSignIn.framework in Frameworks */,
+				B0FB8C0B2121B9C9004D72D4 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0EDC8562120786A0058BF15 = {
+			isa = PBXGroup;
+			children = (
+				B0EDC8622120786A0058BF15 /* GoogleDriveManager */,
+				B0EDC86D2120786A0058BF15 /* GoogleDriveManagerTests */,
+				B0EDC8612120786A0058BF15 /* Products */,
+				B0FB8BA821207C45004D72D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0EDC8612120786A0058BF15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0EDC8602120786A0058BF15 /* GoogleDriveManager.framework */,
+				B0EDC8692120786A0058BF15 /* GoogleDriveManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0EDC8622120786A0058BF15 /* GoogleDriveManager */ = {
+			isa = PBXGroup;
+			children = (
+				B0EDC8632120786A0058BF15 /* GoogleDriveManager.h */,
+				B0EDC87A212079100058BF15 /* GoogleDriveManager.swift */,
+				B0EDC87C2120792F0058BF15 /* GoogleDriveService.swift */,
+				B0EDC88A212079970058BF15 /* GoogleDriveAPI.swift */,
+				B0EDC884212079810058BF15 /* GoogleDriveAPIService.swift */,
+				B0EDC885212079810058BF15 /* Parameters.swift */,
+				B0EDC886212079810058BF15 /* GDItem.swift */,
+				B0EDC8642120786A0058BF15 /* Info.plist */,
+			);
+			path = GoogleDriveManager;
+			sourceTree = "<group>";
+		};
+		B0EDC86D2120786A0058BF15 /* GoogleDriveManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0EDC86E2120786A0058BF15 /* GoogleDriveManagerTests.swift */,
+				B0EDC8702120786A0058BF15 /* Info.plist */,
+			);
+			path = GoogleDriveManagerTests;
+			sourceTree = "<group>";
+		};
+		B0FB8BA821207C45004D72D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0FB8C062121B9A0004D72D4 /* GoogleSignIn.framework */,
+				B0FB8C042121B998004D72D4 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B0EDC85D2120786A0058BF15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EDC8712120786A0058BF15 /* GoogleDriveManager.h in Headers */,
+				B0FB8BA121207A02004D72D4 /* GoogleDriveManager.swift in Headers */,
+				B0FB8BA521207A0D004D72D4 /* Parameters.swift in Headers */,
+				B0FB8BA621207A10004D72D4 /* GDItem.swift in Headers */,
+				B0FB8BA421207A0B004D72D4 /* GoogleDriveAPIService.swift in Headers */,
+				B0FB8BA321207A09004D72D4 /* GoogleDriveAPI.swift in Headers */,
+				B0FB8BA221207A05004D72D4 /* GoogleDriveService.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B0EDC85F2120786A0058BF15 /* GoogleDriveManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EDC8742120786A0058BF15 /* Build configuration list for PBXNativeTarget "GoogleDriveManager" */;
+			buildPhases = (
+				B0EDC85B2120786A0058BF15 /* Sources */,
+				B0EDC85C2120786A0058BF15 /* Frameworks */,
+				B0EDC85D2120786A0058BF15 /* Headers */,
+				B0EDC85E2120786A0058BF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleDriveManager;
+			productName = GoogleDriveManager;
+			productReference = B0EDC8602120786A0058BF15 /* GoogleDriveManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0EDC8682120786A0058BF15 /* GoogleDriveManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EDC8772120786A0058BF15 /* Build configuration list for PBXNativeTarget "GoogleDriveManagerTests" */;
+			buildPhases = (
+				B0EDC8652120786A0058BF15 /* Sources */,
+				B0EDC8662120786A0058BF15 /* Frameworks */,
+				B0EDC8672120786A0058BF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0EDC86C2120786A0058BF15 /* PBXTargetDependency */,
+			);
+			name = GoogleDriveManagerTests;
+			productName = GoogleDriveManagerTests;
+			productReference = B0EDC8692120786A0058BF15 /* GoogleDriveManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0EDC8572120786A0058BF15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = tkanazawa;
+				TargetAttributes = {
+					B0EDC85F2120786A0058BF15 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					B0EDC8682120786A0058BF15 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B0EDC85A2120786A0058BF15 /* Build configuration list for PBXProject "GoogleDriveManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0EDC8562120786A0058BF15;
+			productRefGroup = B0EDC8612120786A0058BF15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0EDC85F2120786A0058BF15 /* GoogleDriveManager */,
+				B0EDC8682120786A0058BF15 /* GoogleDriveManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0EDC85E2120786A0058BF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EDC8672120786A0058BF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FB8BF72121B68A004D72D4 /* GoogleDriveManager.framework in Resources */,
+				B0FB8C0A2121B9C6004D72D4 /* GoogleSignIn.framework in Resources */,
+				B0FB8C092121B9C1004D72D4 /* Alamofire.framework in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0EDC85B2120786A0058BF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EDC888212079810058BF15 /* Parameters.swift in Sources */,
+				B0EDC887212079810058BF15 /* GoogleDriveAPIService.swift in Sources */,
+				B0EDC88B212079970058BF15 /* GoogleDriveAPI.swift in Sources */,
+				B0EDC87B212079100058BF15 /* GoogleDriveManager.swift in Sources */,
+				B0EDC889212079810058BF15 /* GDItem.swift in Sources */,
+				B0EDC87D2120792F0058BF15 /* GoogleDriveService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EDC8652120786A0058BF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FB8BF82121B6B2004D72D4 /* GoogleDriveManager.h in Sources */,
+				B0EDC86F2120786A0058BF15 /* GoogleDriveManagerTests.swift in Sources */,
+				B0FB8BFC2121B6BA004D72D4 /* GoogleDriveAPIService.swift in Sources */,
+				B0FB8BF92121B6B4004D72D4 /* GoogleDriveManager.swift in Sources */,
+				B0FB8BFD2121B6BC004D72D4 /* Parameters.swift in Sources */,
+				B0FB8BFE2121B6BD004D72D4 /* GDItem.swift in Sources */,
+				B0FB8BFB2121B6B8004D72D4 /* GoogleDriveAPI.swift in Sources */,
+				B0FB8BFA2121B6B6004D72D4 /* GoogleDriveService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0EDC86C2120786A0058BF15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0EDC85F2120786A0058BF15 /* GoogleDriveManager */;
+			targetProxy = B0EDC86B2120786A0058BF15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B0EDC8722120786A0058BF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0EDC8732120786A0058BF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0EDC8752120786A0058BF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GoogleDriveManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yu2xzfmd.GoogleDriveManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0EDC8762120786A0058BF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GoogleDriveManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yu2xzfmd.GoogleDriveManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0EDC8782120786A0058BF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GoogleDriveManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yu2xzfmd.GoogleDriveManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0EDC8792120786A0058BF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GoogleDriveManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yu2xzfmd.GoogleDriveManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0EDC85A2120786A0058BF15 /* Build configuration list for PBXProject "GoogleDriveManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EDC8722120786A0058BF15 /* Debug */,
+				B0EDC8732120786A0058BF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EDC8742120786A0058BF15 /* Build configuration list for PBXNativeTarget "GoogleDriveManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EDC8752120786A0058BF15 /* Debug */,
+				B0EDC8762120786A0058BF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EDC8772120786A0058BF15 /* Build configuration list for PBXNativeTarget "GoogleDriveManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EDC8782120786A0058BF15 /* Debug */,
+				B0EDC8792120786A0058BF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0EDC8572120786A0058BF15 /* Project object */;
+}
