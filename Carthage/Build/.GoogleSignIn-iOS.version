@@ -1,9 +1,0 @@
-{
-  "commitish" : "4.1.2",
-  "iOS" : [
-    {
-      "name" : "GoogleSignIn",
-      "hash" : "5eafae6ee22f62f3089b76ea3a780bdb5e4e8b06cc5f8106d92f3d8d5c12762f"
-    }
-  ]
-}

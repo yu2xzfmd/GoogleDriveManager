@@ -7,19 +7,24 @@
 		<key>AppAuth.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>GTMAppAuth.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>GTMSessionFetcher.xcscheme</key>
+		<key>GTMSessionFetcher.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>GoogleSignIn.xcscheme</key>
+		<key>GoogleSignIn.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+		</dict>
+		<key>GoogleToolboxForMac.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -31,6 +36,27 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>5C642AA10FB29936669CC269F42079C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8627999EF1D5E93E13DAFF580DA8CDCF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CAD3534FC55B0333104E5117C0A9A324</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D676E21115185671D7258A56944ABE98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
