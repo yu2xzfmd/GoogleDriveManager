@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0940"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B0EDC85F2120786A0058BF15"
-               BuildableName = "GoogleDriveManager.framework"
-               BlueprintName = "GoogleDriveManager"
-               ReferencedContainer = "container:GoogleDriveManager.xcodeproj">
+               BlueprintIdentifier = "CAD3534FC55B0333104E5117C0A9A324"
+               BuildableName = "GoogleSignIn"
+               BlueprintName = "GoogleSignIn"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B0EDC8682120786A0058BF15"
-               BuildableName = "GoogleDriveManagerTests.xctest"
-               BlueprintName = "GoogleDriveManagerTests"
-               ReferencedContainer = "container:GoogleDriveManager.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B0EDC85F2120786A0058BF15"
-            BuildableName = "GoogleDriveManager.framework"
-            BlueprintName = "GoogleDriveManager"
-            ReferencedContainer = "container:GoogleDriveManager.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B0EDC85F2120786A0058BF15"
-            BuildableName = "GoogleDriveManager.framework"
-            BlueprintName = "GoogleDriveManager"
-            ReferencedContainer = "container:GoogleDriveManager.xcodeproj">
+            BlueprintIdentifier = "CAD3534FC55B0333104E5117C0A9A324"
+            BuildableName = "GoogleSignIn"
+            BlueprintName = "GoogleSignIn"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -79,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B0EDC85F2120786A0058BF15"
-            BuildableName = "GoogleDriveManager.framework"
-            BlueprintName = "GoogleDriveManager"
-            ReferencedContainer = "container:GoogleDriveManager.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

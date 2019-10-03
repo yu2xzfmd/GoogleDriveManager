@@ -1,6 +1,0 @@
-framework module GoogleSignIn {
-  umbrella header "GoogleSignIn.h"
-
-  export *
-  module * { export * }
-}
