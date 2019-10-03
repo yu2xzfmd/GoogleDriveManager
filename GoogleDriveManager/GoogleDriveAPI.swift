@@ -2,39 +2,23 @@
 //  GoogleDriveAPI.swift
 //  GoogleDriveManager
 //
-//  Created 2018/08/12.
-//  Copyright © 2018年 yu2xzfmd. All rights reserved.
 //
 
-import UIKit
-import GoogleSignIn
+import Foundation
 
-public class GoogleDriveAPI {
-    
-    private let googleDriveAPIService = GoogleDriveAPIService()
-    private let current = GIDSignIn.sharedInstance().currentUser
-    
-    public init() {}
-    
-    public func getAbout(accessToken : String? = nil, results : ( (_ item: About) -> Void)? ) {
-        if let token = accessToken {
-            googleDriveAPIService.getAboutRequest(token: token, results: results)
-            return
-        }
-        guard let token = current?.authentication.accessToken else { return }
-        googleDriveAPIService.getAboutRequest(token: token, results: results)
-    }
+/**
+ * https://www.googleapis.com/drive/v3/about
+ */
+public protocol AboutProtcol {
+    func get(result : ( (_ item: About) -> Void)?, failed: ((_ error: Error?) -> Void)? )
+}
 
-    public func getFileList(accessToken : String? = nil, id : String ,results : ((_ item : GDItem) -> Void)? ) {
-        if let token = accessToken {
-            googleDriveAPIService.getFileListRequest(token: token, id: id, results: results)
-            return
-        }
-        guard let token = current?.authentication.accessToken else { return }
-        googleDriveAPIService.getFileListRequest(token: token, id: id, results: results)
-    }
-    
-    public func downloadFileUrl(file : GDFile ) -> String {
-        return googleDriveAPIService.downloadFileUrlRequest(file: file)
-    }
+/**
+ * https://www.googleapis.com/drive/v3/files
+ */
+public protocol FilesProtcol {
+    func list(id: String?,nextPageToken : String?, result : ( (_ item: GDFiles) -> Void)?, failed: ((_ error: Error?) -> Void)?)
+    func get(id: String, result : ( (_ file: GDFile) -> Void)?, failed: ((_ error: Error?) -> Void)?)
+    func downloadUrl(file : GDFile) -> URL
+    func download(file : GDFile, progress: @escaping (Progress) -> Void, finish: @escaping (URL) -> Void, failed: ((Error?) -> Void)? )
 }
