@@ -1,15 +1,15 @@
 # GoogleDriveManager
-**Insert Cartfile
+Insert Cartfile
 ```
-github "https://granks.backlog.jp/git/ENGINEER/GoogleDriveManager.git" "master"
+github "https://github.com/yu2xzfmd/GoogleDriveManager.git" "2.0.0"
 ```
 
-**Update carthage
+Update carthage
 ```
 carthage update --platform iOS
 ```
 
-**Initialize
+Initialize
 GoogleCloudPlatformからDrive APIを有効にしてClientIDとURLスキームを取得してください
 Info.plistに取得URLスキームを設定
 
